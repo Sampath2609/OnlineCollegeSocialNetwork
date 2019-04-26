@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OnlineMobileRechargePortal</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="portal.css">
+</head>
+
+<body>
+
+      <nav class="navbar navbar-inverse">
+            <div class="container">
+              <div class="navbar-header">
+                  <form>
+                  <button type="submit" class="btn btn-b" formaction="index.html">Student</button>
+                  <button type="submit" class="btn btn-b" formaction="admin.html">Admin</button>
+                  </form>  
+               </div>
+               <form>
+                     <button type="submit" class="btn btn-bt" formaction="index.html" style="float: right;">Logout</button>
+                     </form>
+            </div>
+      </nav>
+         
+      <div class="col-md-3">
+            <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href = 'facultymain.html'">Student Details</button>
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href = 'facsendpostt.html'">Send Post</button>
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href = 'newsFeed.html'">Student Profile</button>
+            <br>
+         </div>
+       
+               <div class="col-md-6"  id="myBox">
+                     <div>Post title: Placements<br>Post Description: We are conducting a drive tomorrow.<br>Link: <a href="https://www.nwmissouri.edu/">https://www.nwmissouri.edu/</a></div><br>
+                     <button class="button">Sending Post to Admin</button>
+                   
+                   </div>
+              
+                 </div>
+</body>
+</html>
